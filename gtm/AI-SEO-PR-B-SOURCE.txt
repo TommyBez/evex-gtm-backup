@@ -1,0 +1,13 @@
+Canonical Soft Eng paste source (CoS freeze 2026-08-13 ~07:28 CEST):
+gtm/ai-seo-pr-b-copy-2026-08-13.md
+
+Do not use:
+- gtm/ai-seo-prb-mapped-copy-2026-08-13.md (archive)
+- gtm/ai-seo-prb-comparison-draft.md (stale)
+
+Soft Eng notes:
+- Agent slot: H2 "What is {name}?" + one <p> with inline `npx shadcn@latest add @evex/<slug>`
+- HTML comparison table right after the summary card
+- Docs H2 rename to "What is an Eve agent registry?" is REQUIRED
+- Learn H2 wording optional
+- HowTo JSON-LD is PR-A (#58), not PR-B
