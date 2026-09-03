@@ -6,200 +6,30 @@ Append-only, voce più recente in cima: **ogni run aggiunge la sua voce qui sott
 
 ## Indice partizioni
 
-- **Settimana corrente (2026-W35, 24-30 agosto): le voci qui sotto.**
+- **Settimana corrente (2026-W36, 31 agosto – 6 settembre): le voci qui sotto.**
+- [log/2026-W35.md](log/2026-W35.md) — 24-30 agosto: #74 support-reply-draft, gtm restructure, money-page path opens
 - [log/2026-W34.md](log/2026-W34.md) — 17-23 agosto: Copy command #61, OSSDrop, Lennybot poi sit, #62–#65 GIM, override unsigned north star, sit weekend
 - [log/2026-W33.md](log/2026-W33.md) — 10-16 agosto: setup GTM, lancio 11/08, audit SEO, directory, AI-SEO #58/#59, Q13 #60 chiusa senza merge
 
-## Voci della settimana corrente (2026-W35)
+## Voci della settimana corrente (2026-W36)
 
-## 2026-08-30 ~21:25 CEST (run 59, slot 21:20, evening, Sunday)
+## 2026-09-03 ~08:40 CEST (run 67, slot 08:20, morning, Thursday — gate day)
 
-Delta since midday lock (13:29): almost flat. **#74** still OPEN https://github.com/TommyBez/evex/pull/74 HEAD `d9fc4a619d3adfc5b2ddb2ad7b4bd3256b95bd07`. Review threads **0 unresolved** (8/8 resolved). verify / Vercel / typecheck / discover green. mergeStateStatus BLOCKED = review required. Live `/agents/support-reply-draft` still **404**. Sitemap 33. Stars **24**. #588 still OPEN, only Vercel bot comment, no human.
+Delta since Wednesday morning (run 66; Mac gtm write surface unavailable this morning, so midday/evening 02/09 chronicles were not re-read from disk): TommyBez **merged #79** 02/09 10:03 UTC / **12:03 CEST** (featured Eve agent registry card on `/learn`). TommyBez **merged #80** 02/09 11:54 UTC / **13:54 CEST** (`/learn/install-eve-agent`, title Install an Eve agent · evex). **#75** eve 0.47.5 also MERGED 02/09 17:32 CEST (out of GTM scope). Open GTM PRs now **0**. Live site 200: `/`, `/agents`, support-reply-draft, `/learn`, `/learn/eve-agent-registry`, `/learn/install-eve-agent`, `/docs`, `/docs/publishing`, vs-agentcn. `/learn/publish-eve-agent` still **404**. Sitemap **36**. Stars **24**. #588 still OPEN — do not nag. Featured card for install-eve-agent is **not** on `/learn` index yet (only registry + vs-agentcn + LangGraph).
 
-PostHog 244993: 30/08 still **5 pv / 3 uniques / 3 sess** (bounce ~67%, avg ~18s). 29/08 **35/14/15**. Launch 11–30 **947/470/533**. Referrers today: $direct 2, allshadcn.com 1. Pages visited include `/`, `/agents`, CR, eve-agent-builder, CI explainer, openui-assistant, supabase-data-analyst (web-stats path rows; overview KPI stays 5/3/3).
+PostHog 244993 (project confirmed). 03/09 Europe/Rome so far **11 pv / 7 uniques / 7 sess**. Top pages: `/` 6/7, `/docs/publishing` 1, CR 1, brand-visual 1, leaderboard 1. Top refs: **$direct** 3u/6pv, **t.co** 2/3, github.com 1, api.daily.dev 1. 02/09 Rome **23/13/14**. 01/09 **44/17/18**. 31/08 **107/40/40**. Launch 11/08–03/09 08:40 **1135/535/614**.
 
-North star **10 people / 13 copies** (unchanged). Last copy still 30/08 13:02 CEST sticky `/agents/openui-assistant` (3 copies, one person). Score-only: do not tweet OpenUI.
+North star **10 people / 13 copies** (Soft Eng 19/08 sticky test excluded; unchanged). Last copy still 30/08 13:02 CEST sticky `/agents/openui-assistant`. Score-only: do not tweet OpenUI.
 
-Typefully up (get_me 200, set 266935). No new Evex draft. Latest Evex X remains CI explainer. Open drafts in the set are Skills Board / BiP, not support-reply-draft.
+**GSC gate 3/09 (sc-domain:evex.sh, service account, no inspect this slot):** final last complete day **31/08** 0c/50i. Final 7d 25–31 **0c wait — clicks present earlier** / **205i (~29.3/giorno)**. All-state days: 31/08 50i, 01/09 **55i**, 02/09 **68i**. All-state 27/08–02/09 **279i (~39.9/giorno)**. Goal 300/giorno. **Gate ≥40 on complete final days: NOT met.** Provisional all-state including incomplete 1–2 Sep is **borderline ~40**. Inspect ≠ unknown half of the gate: already passed 1/09. New money URLs (eve-agent-registry, install-eve-agent) have **no GSC page rows yet**.
 
-GSC (sc-domain:evex.sh, service account, no inspect): last complete day now **28/08** 1c/27i (midday last was 27/08). 7d 22–28 **4c / 181i** (~26/day). Days 29–30 not in API yet. Inspect locked until Mon 1 Sep.
+Typefully: get_me **200**, social set 266935. Post **2094825110788345928** → **41 impressions**, 0 likes/replies/retweets, 1 profile click, 0 link clicks (`[@]evex/support-reply-draft`).
 
-gtm/ restructure from ~17:40 stands (STATE photograph, topics/, LOG = W35 only).
+Play this slot: Soft Eng / SEO / Search Counsel **not** woken. Automation cannot message Product Marketing directly. Standing PMM ownership stands: they name the next shippable move toward 300 after this gate score. Candidate to surface (not locked): feature `/learn/install-eve-agent` on the Learn index the same way #79 featured the registry card. Do not nag #588. Do not tweet OpenUI. Do not request indexing. Parent must (1) report Tommy in this CoS chat only in full sentences (no Slack), (2) FYI PMM with the gate score + delta and ask for today's play, (3) sync STATE/LOG/topics to Mac `gtm/` when that write surface is available (staging `/workspace/evex-gtm/pulse-run67/` + pushed to TommyBez/evex-gtm-backup).
 
-Sit dead. No Lennybot. Soft Eng/SEO not woken (PMM midday play still the shippable move: Tommy merges #74; Soft Eng stays on comments until merge; SEO dark; Typefully only after page 200). Sunday 22:30 remains the gtm/ backup dump.
+## 2026-09-02 ~08:35 CEST (run 66, slot 08:20, morning, Wednesday)
 
-Play confirmed for evening: **Tommy merge #74**. Nothing else tonight.
+Delta since Tuesday evening (run 65): TommyBez **merged #78** overnight (01/09 20:16 UTC / **22:16 CEST**, HEAD `1093990ed121cee5f25804795dcff66449e79cd2`). Live `/learn/eve-agent-registry` now **200** (title Eve agent registry · evex). Sitemap **35** (was 34). Site core still **200**. `/learn/publish-eve-agent` still **404** (#77 stays closed). Stars **24**. #588 still OPEN — do not nag. Open GTM PRs before Soft Eng wake: **0** (#75 eve upgrade remains out of scope).
 
-## 2026-08-30 ~21:26 CEST — run 59 play locked (midday play holds)
-
-PMM midday lock still valid after evening delta: no recut on #74. Title and lede match. Tommy merges. Soft Eng stays on comments until merge, then dark. SEO dark until Mon 1 Sep inspect. Nobody else.
-
-No Typefully while https://www.evex.sh/agents/support-reply-draft is 404. The moment it is 200, draft only from drafts/support-reply-draft-x-2026-08-30.md, no publish, no schedule until GET confirms [@]evex/support-reply-draft.
-
-Do not tweet OpenUI copies. Do not nag #588. linear-cycle-digest stays dead.
-
-Tommy: merge #74. Nothing else tonight.
-
-CoS updated STATE photograph + LOG. Soft Eng left on the PR-comments routine (threads already clear). SEO not woken.
-
-## 2026-08-30 ~17:40 CEST — ristrutturazione gtm/ su modello skillsboard (non è un pulse)
-
-Cartella allineata a Skills Board: STATE = fotografia corrente (valori da sostituire, mai croniche); LOG.md = sola settimana ISO corrente (W35, 24-30 agosto); storia per tema in topics/; artefatti in packs/; bozze in drafts/; settimane chiuse in log/; pre-ristrutturazione in archive/pre-restructure-2026-08-30/ (copie piene di STATE e LOG, non toccate).
-
-Spostato: voci 17-23/08 → [log/2026-W34.md](log/2026-W34.md); voci 10-16/08 → [log/2026-W33.md](log/2026-W33.md). Testo delle voci esistenti copiato senza riscrittura.
-
-Nuovi topic: [topics/prodotto-metriche.md](topics/prodotto-metriche.md), [topics/seo.md](topics/seo.md), [topics/canali-social.md](topics/canali-social.md), [topics/directory-backlinks.md](topics/directory-backlinks.md), [topics/agenti.md](topics/agenti.md). Già buoni e lasciati: regole, decisioni, strumenti. Bozza locked: [drafts/support-reply-draft-x-2026-08-30.md](drafts/support-reply-draft-x-2026-08-30.md). Root: solo STATE.md e LOG.md come file.
-
-Nessun pulse: numeri e play restano quelli del run 58 (13:26) + lock 13:29. Backup domenica 22:30 invariato.
-
-## 2026-08-30 ~13:29 CEST — run 58 play locked
-
-PMM: no recut on #74. Title and lede match. Tommy merges. Soft Eng stays on comments until merge, then dark. SEO dark until Mon 1 Sep inspect. Nobody else.
-
-No Typefully while https://www.evex.sh/agents/support-reply-draft is 404. The moment it is 200, draft only, no publish, no schedule until GET confirms [@]evex/support-reply-draft.
-
-Copy:
-When a customer asks a product question, this agent drafts the reply from your docs and cites the file. It does not send.
-
-[@]evex/support-reply-draft
-
-https://www.evex.sh/agents/support-reply-draft
-
-Comment: suggested 18:00 CEST the day the page is 200. Draft only. Job-first. No “Not a PR reviewer”. No DKA contrast line.
-
-Do not tweet OpenUI copies. AllShadcn score-only. Do not nag #588. linear-cycle-digest stays dead.
-
-Tommy: merge #74. Nothing else.
-
-CoS recapped Tommy + Slack. Soft Eng told to stay on comments.
-
-## 2026-08-30 ~13:26 CEST (run 58, slot 13:20, midday, Sunday)
-
-Morning play shipped as **#74 OPEN** https://github.com/TommyBez/evex/pull/74 HEAD `d9fc4a619d3adfc5b2ddb2ad7b4bd3256b95bd07`. `@evex/support-reply-draft`. Title `Eve support reply agent - @evex/support-reply-draft`. Lede `Drafts a customer reply from product docs and cites the file.` verify / Vercel / CodeRabbit green. Threads 0. mergeStateStatus BLOCKED = review required. Live `/agents/support-reply-draft` **404**. Sitemap 33.
-
-PostHog 244993 (cohort 206073, SQL): 29/08 **35/14/15**; 30/08 so far **5/3/3** (morning 1/1/1). Launch 11–30 **936/464/526**. Pages today: `/` 3vis/4pv, openui-assistant 1/1. Referrers: $direct 2, allshadcn.com 1. Bounce ~67%, avg session ~15s.
-
-North star **10 people / 13 copies** (morning 9/10). New: 3 sticky copies, one person, `/agents/openui-assistant` 13:02 CEST. Last copy that. Since 26/08 22:00 UTC: /agents 6/4, CR 5/5, DKA 1/1, GIM/CI/learn/evex-vs-agentcn 0, openui 1/1, brand-visual 10/8.
-
-Typefully up. No new Evex drafts. CI 38/0/0/0; DKA 54/1/0/0; GIM 107/5/1/2. GIM still “Not a PR reviewer”. `[@]` on live X is intentional.
-
-GSC (sc-domain:evex.sh, service account, no inspect): last complete day **27/08** 0c/28i; 7d 21–27 **3/168** (~24/day). Days 28–30 not in API yet. Inspect locked until Mon 1 Sep.
-
-#588 still OPEN, no human comments. vercel/eve #2091 0 replies. Chris still silent on #828.
-
-Sit dead. No Lennybot. Play pending PMM: name the Sunday midday shippable move toward 300 daily GSC impressions and/or scoring #74 once live. Soft Eng/SEO not woken. Sunday 22:30 remains the gtm/ backup dump.
-
-## 2026-08-30 ~08:32 CEST — run 57 play locked
-
-PMM: Soft Eng one PR, @evex/support-reply-draft. Not a GitHub job. Not a second DKA. Drafts a customer-facing support reply from product docs, cites the source file, does not send. No GitHub tools. No send/mail. Unattended on the draft tool.
-
-Page copy locked: title `Eve support reply agent - @evex/support-reply-draft` (layout appends · evex). Lede `Drafts a customer reply from product docs and cites the file.` Install `npx shadcn@latest add @evex/support-reply-draft`. Copy command, no helper. Hero stays code-reviewer. No new /learn URL. No “Not a PR reviewer”.
-
-SEO/Search Counsel dark. No X until page is 200. Do not nag #588. linear-cycle-digest stays dead. Tommy merge when green.
-
-CoS routed Soft Eng. Slack #evex-gtm posted. Tommy recapped in full sentences.
-
-## 2026-08-30 ~08:28 CEST (run 57, slot 08:20, morning, Sunday)
-
-STATE catch-up: Saturday evening pulse collected facts in CoS memory but did not write STATE/LOG or Slack. #73 MERGED 29/08 14:28 CEST (Tommy), open PRs **0**, stars **24**. Learn live in desktop header + footer. `/learn` title unchanged. Sitemap 33.
-
-PostHog 244993: 29/08 restated **35 pv / 14 uniques / 15 sess**; 30/08 so far **1/1/1** `/` `$direct`; launch 11–30 **932/462/524**. North star still **9/10**, last copy 29/08 06:29 CEST brand-visual sticky. Since 26/08 22:00 UTC: /agents 6/4, CR 5/5, DKA 1/1, GIM/CI/learn/evex-vs-agentcn **0**.
-
-Typefully up. No new Evex drafts. CI/DKA/GIM X flat (37/0/0/0, 54/1/0/0, 107/5/1/2). GIM inbound comment text still blocked.
-
-GSC (sc-domain:evex.sh, service account, no inspect): last complete day **27/08** 0c/28i; 7d 21–27 **3/168** (~24/day). Days 28–29 not in API yet. Inspect locked until Mon 1 Sep.
-
-#588 still OPEN, no human comments. vercel/eve #2091 0 replies. Chris still silent on #828.
-
-Sit dead. No Lennybot. Play pending PMM: name the Sunday shippable move toward 300 daily GSC impressions and/or the next non-GitHub first-party agent. Soft Eng/SEO not woken. Sunday 22:30 remains the gtm/ backup dump.
-
-## 2026-08-29 ~13:46 CEST — #73 opened, green
-
-#73 https://github.com/TommyBez/evex/pull/73 HEAD `0023ecafa36dd154981f06c5334cee32d132d57e`. Learn in SiteHeader, SiteHeaderFallback, mobile nav. Threads clear. verify / Vercel / CodeRabbit green. mergeStateStatus BLOCKED = review required (Tommy merge). CoS asked Tommy + Slack.
-
-## 2026-08-29 ~13:27 CEST — run 55 play (midday)
-
-PMM: Soft Eng one PR, Learn in shared nav (same pattern as #68 for Agents). Label Learn, href /learn, SiteHeader + SiteHeaderFallback + mobile, activePrefixes /learn. No extra copy, no third card, footer untouched. SEO/Search Counsel dark. No X. support-reply-draft unrouted. Do not nag #588. Monday 1 Sep inspect stays a check. Tommy merge when green.
-
-Why: #70 #71 #72 just landed. /learn is live with locked title/H1. Header is still Browse, Agents, Docs, Leaderboard. Learn is footer-only. A new first-party page today would be another unknown URL before the weekly gate.
-
-CoS routed Soft Eng. Slack #evex-gtm posted. Tommy recapped in full sentences.
-
-- **2026-08-29 ~13:25 CEST (run 51, slot 13:20, midday, Saturday)** — Morning play shipped. **#71** and **#72** both MERGED ~13:11 CEST and live: `/learn` is now Eve agent guides with a crawlable catalog link; filtered listings noindex. Open PRs **0**. PostHog 244993 unchanged vs 08:25: today **12/5/5**; 28/08 **10/10/10**; launch 11–29 **908/452/513**. Pages today: / 5vis/7pv, brand-visual 1/3, branded-seo 1/1, /docs 1/1. Referrers: $direct 8, google.com 1. Since 26/08 22:00 UTC: /agents 6/4, CR 5/5, DKA 1/1, GIM 0, CI explainer 0. North star still **9/10**, last copy 29/08 06:29 CEST brand-visual sticky. Stars **24**. Typefully up. No new Evex X draft. GSC not re-queried this slot (script bind rejected); last-known 24/08. Sit dead. No Lennybot. Play pending PMM (automation cannot SendToAgent): name the next Saturday shippable move toward 300 daily GSC impressions and/or the next non-GitHub first-party agent. Soft Eng/SEO not woken.
-
-- **2026-08-29 ~08:25 CEST (run 50, slot 08:20, morning, Saturday)** — STATE was stale at run 49 (27/08 midday). Delta since: #68 Agents nav LIVE; #69 github-ci-explainer LIVE; #70 job-intent titles/ledes for 10 agents LIVE; open **#71** (noindex filtered listings + /learn→/agents links) MERGEABLE, CI+Vercel green, one unresolved CodeRabbit thread on metadata.ts. Site 200: /, /agents, GIM, DKA, CI explainer, CR. Stars **24**. PostHog 244993: today so far **12 pv / 5 uniques / 5 sess**; 28/08 **10/10/10** (homepage-only); launch 11–29 **908 pv / 452 uniques / 513 sess**. North star (Tommy unsigned-null rule, exclude Soft Eng 19/08 sticky test): **9 people / 10 copies**, last copy **29/08 06:29 CEST** sticky on `/agents/brand-visual-asset-generator` (first north-star move since 22/08). Typefully up (get_me ok). Evex CI-explainer X published 28/08 17:30 CEST (10521782 → https://x.com/TommyBez85/status/2093360469050593361). Draft 10529492 is Skills Board BiP, not Evex. Goal lock: 300 avg daily organic GSC impressions by 2026-09-27; next first-party agent must be non-GitHub. Sit dead. No Lennybot. Play pending PMM (CoS automation cannot SendToAgent): Soft Eng should clear #71 CodeRabbit thread autonomously; PMM names Saturday shippable move (SEO toward impression goal and/or non-GitHub agent). Soft Eng/SEO not woken for strategy yet.
-
-- **2026-08-27 ~13:54 CEST** — #68 still READY after c07a730. Threads clear. Tommy asked to merge.
-
-- **2026-08-27 ~13:48 CEST** — #68 threads resolved, verify+Vercel green. Tommy asked to merge.
-
-- **2026-08-27 ~13:42 CEST** — Soft Eng opened #68 (Agents nav). Verify green. Two review threads Soft Eng is closing. Tommy asked to merge when green.
-
-- **2026-08-27 ~13:26 CEST (run 49 metrics in)** — PH today 24/11; NS 8/9; DKA/GIM/hub 0/0; CR 3/3; GIM X 107/5/2; GSC 24/08 2c/26i. Play unchanged: nav PR + score after 18:00.
-
-- **2026-08-27 ~13:25 CEST (run 49)** — Search Counsel: no request-indexing API; lag. Homepage links GIM+DKA; `/agents` hub missing from nav. Soft Eng woken for nav PR. Re-inspect Mon 1 Sep.
-
-- **2026-08-27 ~13:23 CEST (run 49, slot 13:20, midday, Thursday)** — 10506227 scheduled 18:00 CEST. Play PMM: non-UI index path for `/agents`+GIM+DKA. Search Counsel routed. No Tommy login. Soft Eng dark. Score after the post.
-
-- **2026-08-27 ~08:30 CEST** — SEO service-account inspect: `/agents`, GIM, DKA all **URL unknown** (NEUTRAL, no crawl). Eligibility clean. Request not sent. Hub links locked.
-
-- **2026-08-27 ~08:29 CEST** — SEO: `/agents` has crawlable links to GIM, DKA, code-reviewer. All 200 + sitemap. Inspection via seo CLI blocked (no gmail tokens). Routed to service-account inspect, no Tommy login.
-
-- **2026-08-27 ~08:28 CEST (run 48, slot 08:20, morning, Thursday)** — #66+#67 LIVE. `/agents` 200. DKA 200. Typefully **10506227** draft only, GET `[@]` ok. SEO routed: inspect hub+GIM+DKA, no UI login. Tommy posts when he wants.
-
-- **2026-08-27 ~00:08 CEST** — Soft Eng: #66 threads resolved (HEAD 5a63a058, hydration P1 fixed, CI green). #67 still merge-ready. Tommy can merge #66 then #67.
-
-- **2026-08-27 ~00:04 CEST** — Soft Eng: #67 threads resolved (HEAD f6c47cb, CI green). Approval P1 still won’t-fix. Merge-ready. #66 sweep still in flight.
-
-- **2026-08-26 ~21:26 CEST** — Soft Eng: #67 Codex P1 replied won’t-fix (no approval on open_docs_issue). rg P2 landed `5fd4833`. #67 ready. #66 untouched. Tommy can merge both.
-
-- **2026-08-26 ~21:25 CEST** — Run 47 metrics: today **26/15/15**. Launch **814/419/474**. NS **8/9**. GIM **5/0**. TF GIM 101/4/2 clicks. GSC path unreachable this run. Play unchanged: merge #66 then #67.
-
-- **2026-08-26 ~21:22 CEST (run 47, slot 21:20, evening, Wednesday)** — Play PMM: merge **#66** then **#67**. Soft Eng: Codex P1 on #67 is won’t-fix (no approval on open_docs_issue). SEO dark until `/agents` 200. PMM X after #67 live. No Lennybot.
-
-- **2026-08-26 ~19:33 CEST** — Soft Eng: **#66** `/agents` index ready https://github.com/TommyBez/evex/pull/66. **#67** docs-knowledge-assistant ready https://github.com/TommyBez/evex/pull/67. Tommy merges. PMM X after #67 live. Soft Eng owns comments.
-
-- **2026-08-26 ~19:15 CEST** — SEO stood down. GIM: homepage link + sitemap; Inspection URL unknown; Request indexing NOT sent (UI-only, login cancelled). No Indexing API. Soft Eng still on docs-knowledge-assistant + `/agents` 200.
-
-- **2026-08-26 ~19:12 CEST** — Tommy: fix `/agents` 404 in parallel, do not serialize. Soft Eng routed for a 200 index PR plus docs-knowledge-assistant. GSC index request still login-blocked; Tommy signs in on SEO’s computer.
-
-- **2026-08-26 ~19:11 CEST** — SEO: GIM has crawlable homepage link (not orphan). `/agents` still 404. Inspection: URL unknown to Google. Request indexing in GSC UI (pending click/login).
-
-- **2026-08-26 ~19:06 CEST** — Search Counsel: GIM inspect is confirmation, not first action. `/agents` 404 = orphan risk. SEO steered: internal link → inspect GIM → request only if not indexed. No GEO/AEO.
-
-- **2026-08-26 ~19:05 CEST** — PMM plays locked. Soft Eng: `@evex/docs-knowledge-assistant` (Support, docs Q&A). SEO: GSC inspect+index GIM. Search Counsel reviews SEO play (Tommy). Soft Eng/SEO/Search Counsel routed.
-
-- **2026-08-26 ~19:03 CEST** — Tommy override: sit dead. Push growth via SEO + new published agents. PMM names both plays. No Lennybot.
-
-- **2026-08-26 ~15:40 CEST** — Tommy: Lennybot off the Evex GTM team. PMM owns strategy alone. Pulse/skill/routines updated. No Lennybot consult from evening pulse on.
-
-- **2026-08-26 ~13:28 CEST (run 46, slot 13:20, midday, Wednesday)** — GSC last day 24/08, 7d **5/177**. GIM **0 rows**. CR 0/7. GIM post 104/5/2 clicks residual. Play PMM+Lennybot: **SIT** until GSC GIM rows or a GIM copy.
-
-- **2026-08-26 ~08:27 CEST** — GSC run 45: last day 23/08. 7d **3/182**. CR **0/7 pos 5.6**. GIM **0 rows** (score, not a bug). Sit until GIM rows or a GIM copy.
-
-- **2026-08-26 ~08:26 CEST** — Lennybot pick A: sit until GSC GIM rows or a GIM copy. Not LinkedIn, not #588.
-
-- **2026-08-26 ~08:26 CEST (run 45, slot 08:20, morning, Wednesday)** — 25/08 **42/21/22**. Today **6/6/6**. Launch **794/413/465**. GIM post 101/2. GIM **5/0**. NS **8/9**. Play PMM+Lennybot: **GIM X find DEAD**. Next find GSC on GIM + CR. No X stack.
-
-- **2026-08-25 ~21:30 CEST** — PMM+Lennybot addendum: tomorrow if GIM post still ~100/2 and GIM 5/0, call the find dead. No new channel tonight.
-
-- **2026-08-25 ~21:29 CEST (run 44, slot 21:20, evening, Tuesday)** — Day close **34/18/18**. Launch **780/404/455**. GIM post 97–99/4/1. GIM **5/0**. NS **8/9**. #64 **16/1**. GSC 7d **3/182**. Play PMM+Lennybot: **SIT tonight**.
-
-- **2026-08-25 ~13:28 CEST (run 43, slot 13:20, midday, Tuesday)** — Pulse **10/6/6**. GIM post 94–95/4/1. GIM **5/0**. NS **8/9**. #64 **15/1**. Reply text blocked. Play PMM+Lennybot: **SIT and score**.
-
-- **2026-08-25 ~08:30 CEST (run 42, slot 08:20, morning, Tuesday)** — 24/08 **69/40/40**. Today **10/6/6**. Launch **756/394/443**. GIM post live 94/4/1. GIM **5/0** (3 t.co). NS **8/9**. #64 **15/1**. Play PMM+Lennybot: **SIT and score**.
-
-- **2026-08-24 ~13:33 CEST (run 41, slot 13:20, midday, Monday)** — #65 live. GIM page 200. Play PMM+Lennybot: Typefully **10464103** draft only, GET confirmed `[@]evex/github-issue-maintainer`. Suggested 18:00 CEST. Tommy posts. Soft Eng dark.
-
-- **2026-08-24 ~10:22 CEST** — #65 comments resolved (HEAD `3e6db7e`). Fixes in `1acdbf6`. Approval P1s won’t-fix per PMM. Still ready. No X until live.
-
-- **2026-08-24 ~10:16 CEST** — PMM+Lennybot: no Eve approval on #65 triage/digest (unattended). Soft Eng replies on Codex P1 threads; other comments still being fixed.
-
-- **2026-08-24 ~08:46 CEST** — #65 recut on branch `e3b2fc8`. Title `Eve GitHub issue agent - install @evex/github-issue-maintainer · evex`. Lede `GitHub issue agent for Eve.` Soft Eng owns comments. No X until live.
-
-- **2026-08-24 ~08:44 CEST** — PMM+Lennybot locked #65 title/lede: `Eve GitHub issue agent - install @evex/github-issue-maintainer · evex` / `GitHub issue agent for Eve.` Meta digest line kept. Soft Eng routed. No X until live.
-
-- **2026-08-24 ~08:42 CEST** — Soft Eng opened **#65** https://github.com/TommyBez/evex/pull/65 ready. `@evex/github-issue-maintainer` (labels + thin-repro + weekly Resend digest). Hero stays code-reviewer. Preview deployed. PMM X after live. Soft Eng owns review comments.
-
-- **2026-08-24 ~08:30 CEST (run 40, slot 08:20, morning, Monday)** — 23/08 restated **18/17/17**. Today **19/14/14**. Launch **696/366/411**. NS **8/9**. Post-#64 **11/1**. Play PMM+Lennybot: **START** github-issue-maintainer. Soft Eng routed. PMM X after installable.
+PostHog 244993: 02/09 Europe/Rome so far **5/4/4**. 01/09 Rome **44/17/18**. Launch **1112/522/599**. North star **10/13**. GSC last complete **30/08** 0c/26i; 7d 23–29 ~26.3/giorno; gate 3/09 ≥40 not met yet. Soft Eng CloudAgent featured-card **in flight** (later became #79). Typefully support-reply-draft post **34** impressions morning.
 

@@ -8,21 +8,19 @@ Vedi anche: [regole](regole.md), [canali social](canali-social.md), [SEO](seo.md
 
 **Il prossimo agente first-party NON deve essere un job GitHub** (Tommy 28/08). `linear-cycle-digest` resta morto.
 
-**`@evex/support-reply-draft` È quell'agente** (30/08). Non è un secondo DKA: bozza una risposta di customer support dalle docs di prodotto, cita il file, non invia. Niente tool GitHub, niente mail. Unattended sulla bozza.
+**`@evex/support-reply-draft` È quell'agente** e **è live** (merged #74). Non è un secondo DKA: bozza una risposta di customer support dalle docs di prodotto, cita il file, non invia. Niente tool GitHub, niente mail. Unattended sulla bozza.
 
 ## Copy locked (pagina)
 
 - Title: `Eve support reply agent - @evex/support-reply-draft` (il layout aggiunge ` · evex`)
 - Lede: `Drafts a customer reply from product docs and cites the file.`
 - Install: `npx shadcn@latest add @evex/support-reply-draft`
-- Copy command, niente helper. Hero resta code-reviewer. Nessun URL `/learn` nuovo.
-
-## PR #74
-
-https://github.com/TommyBez/evex/pull/74 — HEAD `d9fc4a6`, CI verde. Live `/agents/support-reply-draft` **404** finché Tommy non mergea. Niente recut. X solo dopo 200: [../drafts/support-reply-draft-x-2026-08-30.md](../drafts/support-reply-draft-x-2026-08-30.md).
+- Copy command, niente helper. Hero resta code-reviewer.
 
 ## Live di recente
 
-code-reviewer, github-issue-maintainer, docs-knowledge-assistant, github-ci-explainer, hub `/agents`, `/learn`.
+support-reply-draft (**200**), code-reviewer, github-issue-maintainer, docs-knowledge-assistant, github-ci-explainer, hub `/agents`, `/learn`, `/learn/eve-agent-registry` (#78+#79), `/learn/install-eve-agent` (#80).
 
-Catalogo storicamente **11 agenti, tutti TommyBez**. Scout è ricerca only. Invite publisher: cctchris/pushcheck only.
+Money Learn pages are SEO surfaces, not new first-party agents.
+
+Catalogo storicamente Tommy-led. Scout è ricerca only. Invite publisher: cctchris/pushcheck only.

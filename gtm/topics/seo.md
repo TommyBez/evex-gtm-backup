@@ -10,8 +10,11 @@ Vedi anche: [regole](regole.md), [agenti](agenti.md), [directory e backlinks](di
 
 Gate:
 
-- 3 settembre: ≥40/giorno e inspect ≠ unknown su hub `/agents`, GIM, DKA, `/learn`
+- **3 settembre: SCORED 03/09 morning.** Inspect ≠ unknown su hub `/agents`, GIM, DKA, `/learn` — **già ok** (1/09). Media ≥40/giorno — **NON met su final (~29.3)**; provisional all-state 27/08–02/09 **~39.9** (borderline).
 - 10 settembre: ≥80/giorno
+- 17 settembre: ≥150
+- 24 settembre: ≥250
+- 27 settembre: media 7d vs 300
 
 Search Counsel è consulente, non un posto fisso. PMM resta owner del play.
 
@@ -20,41 +23,35 @@ Piano a 30 giorni (Search Counsel, 28/08). Stretch dichiarato: 26/giorno → 300
 Aim: eve agent framework; install Eve agent; @evex/{name}; github issue Eve agent; docs knowledge Eve agent; mcp server for Eve agents.
 Reject: eve harlow / night agent; eve white literary; eve online; bare shadcn registry; bare evex finché la SERP non è nostra.
 
-Ordine (URL esistenti prima) e stato:
-1. `/agents` come pagina eve agent framework, H1 unico, inventario crawlable — SHIPPED (#70 + nav #68).
-2. Title pass job-intent su `/agents/*` già in sitemap — SHIPPED (#70).
-3. noindex (o canonical) sui filtri `/?category=*` e `q` — SHIPPED (#71).
-4. Espandere i due Learn già esistenti, niente sezione nuova — SHIPPED (#71/#72), Learn in header (#73).
-5. Nuove URL Learn solo su near-miss GSC (≥150 impr, pos 5–20, niente URL dedicata). Default: iterare, non spawnare.
-
-Cancelli (7d trailing daily avg, service account + URL Inspection):
-- 3/09: inspect ≠ unknown su `/`, `/agents`, GIM, DKA, Learn. Media ≥40/giorno. Se hub ancora unknown, Soft Eng verifica link crawlable, non request indexing.
-- 10/09: ≥80. Se <60, stop nuove URL, solo titoli + internal link, dire a Tommy che 300 è off-track.
-- 17/09: ≥150. Kill se <100.
-- 24/09: ≥250.
-- 27/09: media 7d vs 300. Reportare il numero, non spostare i pali su click o AIO.
-
-Inspect lunedì 1/09 è il primo check di quel piano, non un freeze.
-
-## GSC (agg. 30/08 ~21:25)
+## GSC (agg. 03/09 ~08:40)
 
 Proprietà `sc-domain:evex.sh`. Ricetta in [strumenti.md](strumenti.md).
 
-- Ultimo giorno completo: **2026-08-28** 1 click / 27 impression
-- 7 giorni 22–28 agosto: **4 click / 181 impression** (~26/giorno)
-- 29–30 agosto: non ancora in API
-- Inspect **bloccato fino a lunedì 1 settembre**. Non ispezionare prima. L'inspect del lunedì è un check, non un freeze.
+- Ultimo giorno **final**: **2026-08-31** 0 click / **50** impression
+- Final 7 giorni 25–31 agosto: **205 impression** (~**29.3**/giorno) — vs gate ≥40 **sotto**
+- All-state: 01/09 **55i**, 02/09 **68i**; 27/08–02/09 **279i** (~**39.9**/giorno) — borderline gate
+- Nuove money URL (`/learn/eve-agent-registry`, `/learn/install-eve-agent`): **nessuna riga page GSC ancora**
+- Top pages all-state 27/08–03/09: home 130i, docs 73i, CR 47i, brand-visual 30i, `/learn` 21i
+- **Non request indexing.**
 
-## Shipped
+## Money pages shipped (01–02/09)
 
-Storia PR per PR non sta in STATE. Qui il set live:
+- **#78 MERGED** 01/09 22:16 CEST — `/learn/eve-agent-registry` 200
+- **#79 MERGED** 02/09 12:03 CEST — featured card on `/learn` for registry (PMM one-liner live)
+- **#80 MERGED** 02/09 13:54 CEST — `/learn/install-eve-agent` 200 (title Install an Eve agent · evex). **Not** yet featured on `/learn` index
+- `/learn/publish-eve-agent` stays **404** (#77 closed deliberately). Do not reopen silently.
+- Sitemap **36**
+
+## Shipped (set live)
 
 - `/agents` 200 — #66 + nav #68
 - Job-intent titles — #70
 - noindex filtri — #71
-- `/learn` Eve agent guides — #72
-- Learn in header — #73 mergiata 29/08 14:28 CEST
-- Sitemap: 33 loc
+- `/learn` Eve agent guides — #72 + Learn in header #73
+- support-reply-draft agent — #74
+- docs in-body catalog links — #76
+- `/learn/eve-agent-registry` — #78 + featured #79
+- `/learn/install-eve-agent` — #80
 
 Packs:
 
@@ -63,5 +60,6 @@ Packs:
 
 ## Lezioni
 
-- **Non ispezionare prima di lunedì 1 settembre.**
-- **Non aggiungere un URL nuovo il giorno dopo un batch live** (lezione island).
+- **Gate 3/09:** reportare final e all-state entrambi; non vestire ~29 come 40.
+- **Non request indexing** come shortcut.
+- **Non nagare #588.**

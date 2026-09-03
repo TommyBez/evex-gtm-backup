@@ -28,15 +28,16 @@ evex è il registry open source di agenti per il framework Eve. Gli sviluppatori
 - Stelle GitHub: **21**
 - Agenti a catalogo: **11**, tutti TommyBez (supply mono-autore)
 
-## Numeri recenti (agg. 30/08 ~21:25 CEST)
+## Numeri recenti (agg. 03/09 ~08:40 CEST)
 
 | Giorno | pv / uniques / sessioni |
 | --- | --- |
-| 28/08 | 10 / 10 / 10 |
-| 29/08 | 35 / 14 / 15 |
-| 30/08 so far | 5 / 3 / 3 |
-| Lancio 11–30/08 | 947 / 470 / 533 |
+| 03/09 Rome so far | 11 / 7 / 7 (top `/` 6/7; refs $direct, t.co) |
+| 02/09 Rome full | 23 / 13 / 14 |
+| 01/09 Rome full | 44 / 17 / 18 |
+| 31/08 Rome | 107 / 40 / 40 |
+| Lancio 11/08–03/09 08:40 | 1135 / 535 / 614 |
 
-**North star attuale: 10 persone / 13 copie.** Ultima: 30/08 13:02 CEST, sticky su `/agents/openui-assistant` (3 copie, una persona; visit allshadcn). Score-only: **non twittare** queste copie OpenUI.
+**North star attuale: 10 persone / 13 copie.** Ultima invariata: 30/08 13:02 CEST sticky `/agents/openui-assistant`. Score-only: **non twittare** queste copie OpenUI.
 
 Fotografia corrente in [../STATE.md](../STATE.md). Cronaca dei run in [../LOG.md](../LOG.md).

@@ -9,22 +9,20 @@ Vedi anche: [regole](regole.md), [agenti](agenti.md), [prodotto e metriche](prod
 - Typefully social set **266935** (Tommy Bez / @TommyBez85). Default: bozze senza `publish_at`.
 - Account X **@evex sospeso**. Si posta da @TommyBez85.
 - `[@]` su un post X già uscito è intenzionale (evita la mention del profilo). Non è un bug, non si chiede di cancellare.
+- Typefully MCP a volte mostra needsAuth: **get_me 200** — non narrare come disconnected.
 
 ## Post recenti Evex
 
 | Post | Typefully | Live | Resa (imp/like/reply/repost) |
 | --- | --- | --- | --- |
-| GIM | 10464103 | — | 107/5/1/2 — contiene ancora «Not a PR reviewer»: **LASCIARLO** |
+| support-reply-draft | 10560773 | https://x.com/TommyBez85/status/2094825110788345928 | **41**/0/0/0 (+1 profile click, 0 link) — agg. 03/09 morning |
+| CI explainer | 10521782 | https://x.com/TommyBez85/status/2093360469050593361 | last-known 38/0/0/0 |
 | DKA | 10506227 | — | 54/1/0/0 |
-| CI explainer | 10521782 | https://x.com/TommyBez85/status/2093360469050593361 | 38/0/0/0 |
+| GIM | 10464103 | — | 107/5/1/2 — contiene ancora «Not a PR reviewer»: **LASCIARLO** |
 
-Ultimo post Evex su X = CI explainer. Le bozze Skills Board del 29/08 **non sono Evex**.
+Ultimo post Evex su X = support-reply-draft (pubblicato 01/09 18:30 CEST).
 
-## Prossimo: support-reply-draft
+## Note
 
-Lock PMM 30/08 13:29 CEST. Copy locked in [../drafts/support-reply-draft-x-2026-08-30.md](../drafts/support-reply-draft-x-2026-08-30.md). Agente in [agenti.md](agenti.md).
-
-- **Niente Typefully** finché https://www.evex.sh/agents/support-reply-draft è 404.
-- Appena 200: bozza only, niente publish/schedule. GET deve confermare `[@]evex/support-reply-draft`.
-- Commento: 18:00 CEST il giorno in cui la pagina è 200.
-- No «Not a PR reviewer». No contrasto DKA. Non twittare le copie OpenUI.
+- No «Not a PR reviewer» su nuovi post. Non twittare le copie OpenUI.
+- Prossimo social solo dopo lock PMM.
