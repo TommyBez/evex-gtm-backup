@@ -21,7 +21,7 @@ PostHog 244993 (project confirmed). 03/09 Europe/Rome so far **11 pv / 7 uniques
 
 North star **10 people / 13 copies** (Soft Eng 19/08 sticky test excluded; unchanged). Last copy still 30/08 13:02 CEST sticky `/agents/openui-assistant`. Score-only: do not tweet OpenUI.
 
-**GSC gate 3/09 (sc-domain:evex.sh, service account, no inspect this slot):** final last complete day **31/08** 0c/50i. Final 7d 25–31 **0c wait — clicks present earlier** / **205i (~29.3/giorno)**. All-state days: 31/08 50i, 01/09 **55i**, 02/09 **68i**. All-state 27/08–02/09 **279i (~39.9/giorno)**. Goal 300/giorno. **Gate ≥40 on complete final days: NOT met.** Provisional all-state including incomplete 1–2 Sep is **borderline ~40**. Inspect ≠ unknown half of the gate: already passed 1/09. New money URLs (eve-agent-registry, install-eve-agent) have **no GSC page rows yet**.
+**GSC gate 3/09 (sc-domain:evex.sh, service account, no inspect this slot):** final last complete day **31/08** 0c/50i. Final 7d 25–31 **2c / 205i (~29.3/giorno)**. All-state days: 31/08 50i, 01/09 **55i**, 02/09 **68i**. All-state 27/08–02/09 **279i (~39.9/giorno)**. Goal 300/giorno. **Gate ≥40 on complete final days: NOT met.** Provisional all-state including incomplete 1–2 Sep is **borderline ~40**. Inspect ≠ unknown half of the gate: already passed 1/09. New money URLs (eve-agent-registry, install-eve-agent) have **no GSC page rows yet**.
 
 Typefully: get_me **200**, social set 266935. Post **2094825110788345928** → **41 impressions**, 0 likes/replies/retweets, 1 profile click, 0 link clicks (`[@]evex/support-reply-draft`).
 
