@@ -19,6 +19,7 @@ Parte del grafo gtm: indice in [../STATE.md](../STATE.md).
 - **Q13** — 16/08, **non mergeare #60**. Filtro UA `node` droppato. North star PostHog resta il segnale.
 - **Q14** OpenAlternative SKIP, finalize a pagamento.
 - **Q15** AllShadcn FREE Starter submitted. allshadcn.com lista agentcn non evex: skip a pagamento. caramaschiHG/awesome-ai-agents-2026 PR #502 404.
+- **Q16** — 04/09 evening: **kill** Learn “definition / what is the product” pages. Tommy closed #84 without merge; merged #85 retiring `/learn/eve-agent-registry` → permanent redirect `/docs`. Soft Eng then opened #86 (vs-agentcn citation) from main.
 
 ## Vive (dettaglio in STATE)
 
@@ -31,3 +32,4 @@ Parte del grafo gtm: indice in [../STATE.md](../STATE.md).
 - 26/08 — sit morta. Spingere SEO + agenti pubblicati.
 - 28/08 — 300 impression organiche medie al giorno entro il 27/09. Prossimo first-party non-GitHub.
 - 30/08 — `@evex/support-reply-draft` è quell'agente. X solo dopo pagina 200. Inspect GSC lunedì 1/09.
+- 04/09 — No Learn “definition / what is the product” pages. Registry Learn retired to `/docs`.

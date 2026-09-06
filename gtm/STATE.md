@@ -2,7 +2,7 @@
 
 Fonte di verità per l'agente GTM schedulato. Tommy lo modifica direttamente: **le sue modifiche vincono sempre** su quello che ha scritto un agente.
 
-Ultimo aggiornamento: 2026-09-03 ~08:40 CEST (morning pulse, run 67 — gate day)
+Ultimo aggiornamento: 2026-09-06 ~22:28 CEST (Tommy requested indexing /agents)
 
 > ⚠️ `gtm/` non è versionato in git: questa cartella è l'unica memoria dell'agente tra i run, con backup settimanale su [evex-gtm-backup](https://github.com/TommyBez/evex-gtm-backup) (domenica 22:30). Trattare i file con cura: mai troncare, in dubbio aggiungere. Dettagli backup in [topics/strumenti.md](topics/strumenti.md).
 
@@ -15,13 +15,13 @@ Ultimo aggiornamento: 2026-09-03 ~08:40 CEST (morning pulse, run 67 — gate day
 | Topic | Contenuto |
 | --- | --- |
 | [topics/prodotto-metriche.md](topics/prodotto-metriche.md) | Prodotto, north star, baseline, numeri PostHog |
-| [topics/seo.md](topics/seo.md) | Goal 300/giorno, gate 3/09 scored, GSC, pagine shipped |
-| [topics/canali-social.md](topics/canali-social.md) | X EN / LinkedIn IT, Typefully, support-reply-draft live |
+| [topics/seo.md](topics/seo.md) | Goal 300/giorno, gate, GSC, pagine shipped |
+| [topics/canali-social.md](topics/canali-social.md) | X EN / LinkedIn IT, Typefully, post recenti, bozza support-reply-draft |
 | [topics/directory-backlinks.md](topics/directory-backlinks.md) | Shortlist, #588 aperta (non nagare), chiusi |
 | [topics/agenti.md](topics/agenti.md) | Catalogo, direttiva non-GitHub, support-reply-draft live |
 | [topics/strumenti.md](topics/strumenti.md) | Ricette: PostHog, GSC, Typefully, GitHub, backup |
 | [topics/regole.md](topics/regole.md) | TUTTE le regole permanenti di Tommy — leggerlo prima di scrivere qualsiasi copy |
-| [topics/decisioni.md](topics/decisioni.md) | Indice cronologico delle domande chiuse (Q1–Q15) |
+| [topics/decisioni.md](topics/decisioni.md) | Indice cronologico delle domande chiuse (Q1–Q16) |
 
 Log: [LOG.md](LOG.md) (settimana corrente, W36) → `log/2026-W35.md`, `log/2026-W34.md`, `log/2026-W33.md`. Archivio pre-ristrutturazione: `archive/pre-restructure-2026-08-30/`.
 
@@ -29,33 +29,43 @@ Log: [LOG.md](LOG.md) (settimana corrente, W36) → `log/2026-W35.md`, `log/2026
 
 Registry open source di agenti Eve. Sito https://evex.sh · repo https://github.com/TommyBez/evex · install `npx shadcn@latest add @evex/<slug>`. North star: unici non-autori che copiano il comando (`agent_install_command_copied`). PostHog **244993**.
 
-## Numeri correnti (agg. 03/09 ~08:40 CEST)
+## Numeri correnti (agg. 06/09 ~22:24 CEST)
 
 | Metrica | Valore | Nota |
 | --- | --- | --- |
-| **North star** | **10 persone / 13 copie** | Soft Eng 19/08 sticky test escluso. Ultima 13:02 CEST 30/08 sticky `/agents/openui-assistant`. Score-only: non twittare OpenUI. |
-| PostHog 03/09 Rome so far | 11 / 7 / 7 | Top pages: `/` 6u/7pv, publishing 1, CR 1, brand-visual 1, leaderboard 1. Top refs: $direct 3/6, t.co 2/3, github.com 1, api.daily.dev 1. |
+| **North star** | **11 persone / 15 copie** | Soft Eng 19/08 test escluso. Ultima 03/09 14:55–14:56 CEST sticky `/agents/code-reviewer`. Score-only: non twittare. |
+| PostHog 06/09 Rome so far | 20 / 13 / 13 | Evening; top `/` 11u/12pv; brand-visual 2; leaderboard 1; agents / CR / eve-agent-builder / supabase-data-analyst 1 each. |
+| 05/09 Rome full | 11 / 7 / 7 | |
+| 04/09 Rome full | 30 / 14 / 17 | |
+| 03/09 Rome full | 60 / 21 / 23 | |
 | 02/09 Rome full | 23 / 13 / 14 | |
 | 01/09 Rome full | 44 / 17 / 18 | |
 | 31/08 Rome | 107 / 40 / 40 | |
-| Lancio 11/08–03/09 08:40 | 1135 / 535 / 614 | |
-| **GSC gate 3/09** | **≥40/giorno: NON met su final** · **~40 su all-state** | Final last day **31/08** 0c/50i. Final 7d 25–31 **205i (~29.3/giorno)**. All-state 27/08–02/09 **279i (~39.9/giorno)**. Inspect ≠ unknown: **già ok** (1/09). |
+| Lancio 11/08–06/09 ~22:24 | 1245 / 578 / 667 | |
+| **GSC** | final last day **04/09** 0c/**62i** · trailing final 7d **29/08–04/09** **344i (~49.1/giorno)** | Trailing ≥40 clears. All-state **05/09 33i**; **06/09 7i**. Money Learn install still **0** page rows; retired registry **0**. vs-agentcn all-state ~7d **15i**; langgraph **5i**; `/learn` **16i**; home **146i**; docs **105i**. Next gate **10/09 ≥80**. |
 | Stelle GitHub | 24 | |
-| PR aperte GTM | **0** | #79 featured card MERGED 02/09 12:03 CEST. #80 `/learn/install-eve-agent` MERGED 02/09 13:54 CEST. #75 eve 0.47.5 MERGED (out of GTM scope but landed). |
-| Typefully | get_me **200** (set 266935) | support-reply-draft X **41** impressions, 0 likes / 0 replies / 0 retweets, 1 profile click, 0 link clicks. |
-| Sitemap | **36** | Includes `/learn/eve-agent-registry` + `/learn/install-eve-agent`. `/learn/publish-eve-agent` still 404. |
+| PR aperte GTM | **1** | **#93 OPEN** — optional/demoted polish (home title/H1/lede; Tommy demoted; **NOT** a growth play). **#94 MERGED** ~22:22 CEST `72fc333`. **#92 MERGED** ~21:37 CEST (optional clarify; **NOT** growth). |
+| Typefully | connected (get_me 200, set 266935) | support-reply-draft X still **43** impressions. Evex queue empty 06/09; Mon–Tue 07–08/09 slots empty. Open drafts are Skills Board BiP (10653428 X, 10653429 LI) + empty 10625176 — not Evex. |
+| Sitemap | **35** | `/learn/eve-agent-registry` redirects → `/docs`. Live `/learn` **3** featured cards. Live hubs still show install+vs-agentcn crawlable anchors from #90. |
+| **Inspect** | Home + Learn + vs-agentcn **indexed** (1/09). Hub / GIM / DKA **discovered, not indexed** (1/09). support-reply-draft **unknown** (1/09). | **Tommy ~22:28 CEST 06/09** personally requested Google URL Inspection / request indexing for `https://www.evex.sh/agents` after #94 PASS. Team must **NOT** re-request or nag. Morning pulse scores whether `/agents` leaves discovered-not-indexed. |
 | **AI-SEO monthly (1/09)** | Google: **6/10** name evex · **3** AIO with canonical install | Invariato. ChatGPT/Perplexity blocked (sign-in). |
 
 ## Direttiva attiva
 
-**300 impression organiche medie al giorno entro il 27/09.** Sit morta. Next first-party non-GitHub **è live**: `/agents/support-reply-draft` **200**. Inspect 1/09 **fatto**. **Gate 3/09 scored this morning:** inspect half **pass**; ≥40/giorno on complete final days **fail** (~29); provisional all-state including 1–2 Sep is **~40** (borderline). Lennybot fuori. Niente paid, niente sales. Storia e gate in [topics/seo.md](topics/seo.md) e [topics/agenti.md](topics/agenti.md).
+**300 impression organiche medie al giorno entro il 27/09.** Sit morta. **Q16 CLOSED as kill:** Learn “definition / what is the product” line retired (`#84` closed without merge; `#85` merged — `/learn/eve-agent-registry` permanent redirect to `/docs`). Live money surfaces: `/learn/install-eve-agent`, `/learn/evex-vs-agentcn` (citation pass live via `#86`), `/learn` three cards. **#94 live** — `/agents` index copy + prerender catalog for crawlers (Search Counsel #1 impact play); PMM live-check **PASS**. Inspect 1/09 **fatto**. **Tommy ~22:28 CEST** personally requested indexing for `https://www.evex.sh/agents` after #94 PASS — team must **NOT** re-request or nag. Trailing final 7d through **04/09** **~49.1/giorno** (clears ≥40). Next gate **10/09 ≥80**. Lennybot / SEO agent / Publisher Scout fuori. Niente paid, niente sales. Storia in [topics/seo.md](topics/seo.md) e [topics/decisioni.md](topics/decisioni.md).
 
 ## In volo adesso
 
-- **#79 MERGED** 02/09 ~12:03 CEST — featured Eve agent registry card on `/learn` LIVE (title + one-liner as locked).
-- **#80 MERGED** 02/09 ~13:54 CEST — `/learn/install-eve-agent` LIVE (title Install an Eve agent · evex). **Not** yet a featured card on `/learn` index (candidate for PMM).
-- Open GTM PRs: **0**. Soft Eng/SEO **dark** this morning until PMM names the next shippable move toward 300.
-- Non nagare #588. Non twittare OpenUI. Non request indexing.
+- **#94 MERGED** 06/09 ~22:22 CEST `72fc333` — Lock `/agents` index copy and prerender catalog for crawlers (Search Counsel #1 **impact** play). PMM live-check **PASS** on prod: 200; title `Eve agents for the Eve agent framework | browse and install · evex`; H1 locked; 4 intro paras + `/docs/mcp`; Learn links kept; 15 crawlable `/agents/{slug}` hrefs; ItemList JSON-LD; old game/TV lede gone.
+- **Tommy ~22:28 CEST 06/09** personally requested Google URL Inspection / request indexing for `https://www.evex.sh/agents` after #94 PASS. Team must **NOT** re-request or nag.
+- **#92 MERGED** 06/09 ~21:37 CEST — clarify `/learn/install-eve-agent` by source/destination. Optional/demoted — **NOT** a growth play.
+- **#93 OPEN** https://github.com/TommyBez/evex/pull/93 — home title/H1/lede lock. **Demoted by Tommy**; optional polish — **NOT** a growth play. Soft Eng **dark** tonight.
+- **#90 MERGED** 06/09 ~10:44 CEST — crawlable Learn links live on `/docs`, `/docs/installation`, `/agents`.
+- **#86 MERGED** 05/09 ~09:58 CEST — citation/voice pass on `/learn/evex-vs-agentcn` live.
+- **#85 MERGED** 04/09 ~22:53 CEST — registry Learn retired. **#84 CLOSED** without merge ~22:01 CEST.
+- Do not nag #588. Do not tweet install copies. Do **not** re-request indexing (Tommy already did `/agents`). Not link drip.
+- **Next:** morning pulse score whether `/agents` leaves discovered-not-indexed; name next impact toward gate **10/09 ≥80**.
+- Sunday backup routine still tonight **22:30** Europe/Rome.
 
 ## AI-SEO visibility (fotografia)
 
@@ -69,12 +79,12 @@ Le vive stanno SOLO qui. Le chiuse: [topics/decisioni.md](topics/decisioni.md).
 
 ## Aspettano Tommy
 
-Niente da mergiare (zero PR aperte). Opzionale: login ChatGPT + Perplexity sul Chrome del box per l'AI-SEO di ottobre. Il pezzo vero oggi è la decisione PMM sul prossimo move dopo il gate (candidate: featured card `/learn` per install-eve-agent, o altro money page / internal-link play).
+- Nothing blocking tonight. **#93** stays optional/demoted (do not treat as growth). Tommy already requested indexing for `/agents` (~22:28) — do not nag. Morning: score whether `/agents` leaves discovered-not-indexed + name next impact toward **10/09 ≥80**.
 
 ## Guardrail lampo
 
-Estratto: comando install `npx shadcn@latest add @evex/<slug>`; su X scrivere `[@]evex/<slug>`; voce in frasi intere; sit morta; PMM possiede slug e pagine; commenti PR autonomi. Il resto in [topics/regole.md](topics/regole.md).
+Estratto: comando install `npx shadcn@latest add @evex/<slug>`; su X scrivere `[@]evex/<slug>`; voce in frasi intere; sit morta; PMM possiede slug e pagine; commenti PR autonomi; **no Learn “what is our product” definition pages**. Il resto in [topics/regole.md](topics/regole.md).
 
 ## Ultimo run
 
-**2026-09-03 ~08:40 CEST (morning, run 67, gate day)** — #79+#80 live; sitemap 36; north star 10/13; GSC final gate ≥40 **not met** (~29/day), all-state ~40; Soft Eng/SEO dark pending PMM. Dettaglio in [LOG.md](LOG.md).
+**2026-09-06 ~22:28 CEST (Tommy indexing /agents)** — after #94 PASS, Tommy personally requested Google URL Inspection / request indexing for `https://www.evex.sh/agents`. Team must NOT re-request or nag. Morning pulse scores whether `/agents` leaves discovered-not-indexed. Dettaglio in [LOG.md](LOG.md).

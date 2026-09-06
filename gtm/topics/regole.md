@@ -8,11 +8,13 @@ Parte del grafo gtm: indice in [../STATE.md](../STATE.md).
 - **Merge e pubblicazioni esterne solo Tommy.** I run aprono PR, mai commit su main.
 - **Sit è morta** (26/08 ~19:03 CEST). Crescita piattaforma: SEO + agenti first-party nuovi. Non defaultare a hold.
 - **Lennybot è fuori** (26/08). PMM possiede la strategia da sola. Non consultarlo, non aspettare un consulto.
+- **L’agente SEO è fuori** (3/09). Core GTM: Chief of Staff, Soft Eng, PMM. Search Counsel resta consulente, non un posto fisso. Non consultare l’agente SEO, non svegliarlo ai pulse.
+- **Publisher Scout è fuori** (3/09). Niente scouting publisher, invite, o watch inbound-author da quel posto. Non consultarlo, non svegliarlo ai pulse. Supply del catalogo non è un posto GTM fisso.
 - **PMM sceglie slug e pagine.** Non rimbalzare a Tommy le scelte tattiche (20/08, riaffermato).
 - **Commenti PR: sempre, senza che Tommy lo dica** (20/08, 26/08). Soft Eng sweep immediato su CodeRabbit / Codex / umani.
-- **Voce verso Tommy e Slack** (18/08, 20/08, 28/08): frasi intere. Cosa è successo, perché conta, cosa deve fare. Mai telegrafico, mai aprire con numeri di PR o dump di metriche. Lui non legge le chat CoS con PMM / SEO / Soft Eng.
+- **Voce verso Tommy e Slack** (18/08, 20/08, 28/08, 3/09): frasi intere. Cosa è successo, perché conta, cosa deve fare. Mai telegrafico, mai aprire con numeri di PR o dump di metriche. Lui non legge le chat CoS con PMM o Soft Eng.
 - **Mai dire che il Mac è offline** (20/08) se un write su `gtm/` fallisce. Riprovare. Il problema è il tool, non la sua macchina.
-- **Niente paid ads, niente sales** (17/08). Core: Chief of Staff, Soft Eng, PMM, SEO.
+- **Niente paid ads, niente sales** (17/08). Core (3/09): Chief of Staff, Soft Eng, PMM. Search Counsel consulente.
 
 ## Copy e install
 
